@@ -7,7 +7,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-public class WebCrawler {
+public class SimpleWebCrawler {
 	private final String topic;
    private final String startingURL;
    private final String urlLimiter;
@@ -15,7 +15,7 @@ public class WebCrawler {
    private final ArrayList<String> visitedList = new ArrayList<>();
    private final ArrayList<String> pageList = new ArrayList<>();
 
-   public WebCrawler() {
+   public SimpleWebCrawler() {
        startingURL = "https://en.wikipedia.org/wiki/Bishop_Rock,_Isles_of_Scilly";
        urlLimiter = "Bishop_Rock";
        topic = "shipping route";
@@ -51,6 +51,6 @@ public class WebCrawler {
    }
 
    public static void main(String[] args) {
-       new WebCrawler();
+       new SimpleWebCrawler();
    }
 }
