@@ -1,4 +1,4 @@
-package data_acquisition;
+package data_acquisition.crawler;
 
 import java.util.regex.Pattern;
 

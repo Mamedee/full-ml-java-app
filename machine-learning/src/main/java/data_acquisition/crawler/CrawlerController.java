@@ -1,4 +1,4 @@
-package data_acquisition;
+package data_acquisition.crawler;
 
 import edu.uci.ics.crawler4j.crawler.CrawlConfig;
 import edu.uci.ics.crawler4j.crawler.CrawlController;
